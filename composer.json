@@ -1,5 +1,5 @@
 {
-    "name": "ggdx/php-insightly",
+    "name": "smartsupp/php-insightly",
     "description": "PHP SDK for Insightly CRM API",
     "keywords": ["insightly", "php", "crm"],
     "minimum-stability": "stable",
@@ -10,14 +10,14 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Daniel White",
-            "email": "hi@dwhite.me"
+            "name": "Petr Poupě",
+            "email": "pp@smartsupp.com"
         }
     ],
     "autoload": {
         "psr-4": {
-          "GGDX\\PhpInsightly\\": "src/GGDX/PhpInsightly",
-          "GGDX\\PhpInsightly\\Traits\\": "src/GGDX/PhpInsightly/Traits"
+          "Smartsupp\\PhpInsightly\\": "src/Smartsupp/PhpInsightly",
+          "Smartsupp\\PhpInsightly\\Traits\\": "src/Smartsupp/PhpInsightly/Traits"
         }
     }
 }

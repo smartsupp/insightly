@@ -1,8 +1,8 @@
 {
-    "name": "smartsupp/php-insightly",
+    "name": "smartsupp/insightly-php",
     "description": "PHP SDK for Insightly CRM API",
     "keywords": ["insightly", "php", "crm"],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {
         "php": ">=5.5.9",
         "guzzlehttp/guzzle": "^6.2"
@@ -16,8 +16,8 @@
     ],
     "autoload": {
         "psr-4": {
-          "Smartsupp\\PhpInsightly\\": "src/Smartsupp/PhpInsightly",
-          "Smartsupp\\PhpInsightly\\Traits\\": "src/Smartsupp/PhpInsightly/Traits"
+          "Smartsupp\\PhpInsightly\\": "src/Smartsupp/Insightly",
+          "Smartsupp\\PhpInsightly\\Traits\\": "src/Smartsupp/Insightly/Traits"
         }
     }
 }

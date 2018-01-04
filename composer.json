@@ -16,8 +16,8 @@
     ],
     "autoload": {
         "psr-4": {
-          "Smartsupp\\PhpInsightly\\": "src/Smartsupp/Insightly",
-          "Smartsupp\\PhpInsightly\\Traits\\": "src/Smartsupp/Insightly/Traits"
+          "Smartsupp\\Insightly\\": "src/Smartsupp/Insightly",
+          "Smartsupp\\Insightly\\Traits\\": "src/Smartsupp/Insightly/Traits"
         }
     }
 }

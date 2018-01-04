@@ -1,4 +1,6 @@
-<?php namespace Smartsupp\PhpInsightly\Traits;
+<?php
+
+namespace Smartsupp\Insightly\Traits;
 
 trait Helpers
 {

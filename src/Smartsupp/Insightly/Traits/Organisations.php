@@ -1,6 +1,6 @@
 <?php
 
-namespace Smartsupp\PhpInsightly\Traits;
+namespace Smartsupp\Insightly\Traits;
 
 trait Organisations
 {

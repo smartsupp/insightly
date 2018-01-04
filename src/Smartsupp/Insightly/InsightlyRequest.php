@@ -1,4 +1,6 @@
-<?php namespace Smartsupp\PhpInsightly;
+<?php
+
+namespace Smartsupp\Insightly;
 
 use GuzzleHttp\Client;
 use Psr\Http\Message\ResponseInterface;

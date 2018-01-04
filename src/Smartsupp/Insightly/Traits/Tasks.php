@@ -1,6 +1,8 @@
-<?php namespace Smartsupp\PhpInsightly\Traits;
+<?php
 
-use Smartsupp\PhpInsightly\InsightlyException;
+namespace Smartsupp\Insightly\Traits;
+
+use Smartsupp\Insightly\InsightlyException;
 
 /**
  * TODO: DON'T USE WITHOUT TEST ALL FUNCTIONS - THIS IS ONLY CONCEPT
@@ -13,7 +15,6 @@ trait Tasks
 	 *
 	 * @param int $id - Task category ID
 	 * @return object
-	 * @throws InsightlyException
 	 */
 	public function getTasks($id = null)
 	{
@@ -26,7 +27,6 @@ trait Tasks
 	 *
 	 * @param array $data - See https://api.insight.ly/v2.2/#!/Tasks/AddTask for fields
 	 * @return object
-	 * @throws InsightlyException
 	 */
 	public function saveTask(array $data = [])
 	{

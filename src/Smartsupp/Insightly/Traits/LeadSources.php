@@ -1,4 +1,6 @@
-<?php namespace Smartsupp\PhpInsightly\Traits;
+<?php
+
+namespace Smartsupp\Insightly\Traits;
 
 /**
  * TODO: DON'T USE WITHOUT TEST ALL FUNCTIONS - THIS IS ONLY CONCEPT
@@ -45,5 +47,5 @@ trait LeadSources
 	{
 		return $this->call('delete', 'LeadSources/' . $id);
 	}
-    
+
 }

@@ -1,4 +1,6 @@
-<?php namespace Smartsupp\PhpInsightly;
+<?php
+
+namespace Smartsupp\Insightly;
 
 use Psr\Http\Message\ResponseInterface;
 
@@ -40,7 +42,6 @@ class Insightly
 	//use Traits\TeamMembers;
 	//use Traits\Teams;
 	//use Traits\Users;
-
 
 	/** @var InsightlyRequest */
 	private $request;

@@ -1,4 +1,6 @@
-<?php namespace Smartsupp\PhpInsightly\Traits;
+<?php
+
+namespace Smartsupp\Insightly\Traits;
 
 /**
  * TODO: DON'T USE WITHOUT TEST ALL FUNCTIONS - THIS IS ONLY CONCEPT
@@ -375,5 +377,5 @@ trait Opportunities
 
 		return $this->call('put', 'Opportunities/' . $id . '/PipelineStage');
 	}
-    
+
 }

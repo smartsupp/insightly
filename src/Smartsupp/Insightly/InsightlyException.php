@@ -1,4 +1,6 @@
-<?php namespace Smartsupp\PhpInsightly;
+<?php
+
+namespace Smartsupp\Insightly;
 
 class InsightlyException extends \Exception
 {

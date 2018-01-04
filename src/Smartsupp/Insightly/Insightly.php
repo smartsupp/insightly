@@ -55,14 +55,10 @@ class Insightly
 	 *
 	 * @param string $apiKey
 	 * @param string $apiVersion
-	 * @throws InsightlyException
 	 * @return void
 	 */
-	public function __construct($apiKey = null, $apiVersion = null)
+	public function __construct($apiKey, $apiVersion = null)
 	{
-		if (!$apiKey) {
-			throw new InsightlyException('Insightly API key required');
-		}
 		$this->request = new InsightlyRequest($apiKey);
 
 		if ($apiVersion) {

@@ -35,7 +35,7 @@ class InsightlyRequest
 	public function post($url, array $data = [])
 	{
 		$data = $this->sanitizeBools($data);
-		return $this->getClient()->post($url, ['body' => $data]);
+		return $this->getClient()->post($url, ['json' => $data]);
 	}
 
 

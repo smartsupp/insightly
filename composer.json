@@ -1,5 +1,5 @@
 {
-    "name": "smartsupp/insightly-php",
+    "name": "smartsupp/insightly",
     "description": "PHP SDK for Insightly CRM API",
     "keywords": ["insightly", "php", "crm"],
     "minimum-stability": "dev",

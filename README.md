@@ -1,7 +1,7 @@
 # PHP-Insightly
 ## Getting started
 ### Composer
-`composer require smartsupp/php-insightly`
+`composer require smartsupp/insightly`
 
 
 ### Example:

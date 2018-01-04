@@ -17,12 +17,6 @@ trait Organisations
 	}
 
 
-	public function getOrganizations($id = null)
-	{
-		return $this->getOrganisations($id);
-	}
-
-
 	/**
 	 * Create/Update organisation
 	 *
@@ -38,12 +32,6 @@ trait Organisations
 	}
 
 
-	public function saveOrganization(array $data = [])
-	{
-		return $this->saveOrganisation($data);
-	}
-
-
 	/**
 	 * Delete Organisation
 	 *
@@ -53,12 +41,6 @@ trait Organisations
 	public function deleteOrganisation($id)
 	{
 		return $this->call('delete', 'Organisations/' . $id);
-	}
-
-
-	public function deleteOrganization($id)
-	{
-		return $this->deleteOrganisation($id);
 	}
 
 
@@ -74,12 +56,6 @@ trait Organisations
 	}
 
 
-	public function getOrganizationImage($id)
-	{
-		return $this->getOrganisationImage($id);
-	}
-
-
 	/**
 	 * Delete Organisation Image
 	 *
@@ -89,12 +65,6 @@ trait Organisations
 	public function deleteOrganisationImage($id)
 	{
 		return $this->call('delete', 'Organisations/' . $id . '/Image');
-	}
-
-
-	public function deleteOrganizationImage($id)
-	{
-		return $this->deleteOrganisationImage($id);
 	}
 
 
@@ -114,12 +84,6 @@ trait Organisations
 	}
 
 
-	public function saveOrganizationAddress($id, array $data = [])
-	{
-		return $this->saveOrganisationAddress($id, $data);
-	}
-
-
 	/**
 	 * Delete an organisation address
 	 *
@@ -130,12 +94,6 @@ trait Organisations
 	public function deleteOrganisationAddress($id, $aId)
 	{
 		return $this->call('delete', 'Organisations/' . $id . '/Addresses/' . $aId);
-	}
-
-
-	public function deleteOrganizationAddress($id, $aId)
-	{
-		return $this->deleteOrganisationAddress($id, $aId);
 	}
 
 
@@ -157,12 +115,6 @@ trait Organisations
 	}
 
 
-	public function saveOrganizationContactInfo($id, array $data = [])
-	{
-		return $this->saveOrganisationContactInfo($id, $data);
-	}
-
-
 	/**
 	 * Delete an organisation contact info
 	 *
@@ -173,12 +125,6 @@ trait Organisations
 	public function deleteOrganisationContactInfo($id, $ciId)
 	{
 		return $this->call('delete', 'Organisations/' . $id . '/ContactInfos/' . $ciId);
-	}
-
-
-	public function deleteOrganizationContactInfo($id, $ciId)
-	{
-		return $this->deleteOrganisationContactInfo($id, $ciId);
 	}
 
 
@@ -200,12 +146,6 @@ trait Organisations
 	}
 
 
-	public function saveOrganizationDate($id, array $data = [])
-	{
-		return $this->saveOrganisationDate($id, $data);
-	}
-
-
 	/**
 	 * Delete an organisation date
 	 *
@@ -216,12 +156,6 @@ trait Organisations
 	public function deleteOrganisationDate($id, $dId)
 	{
 		return $this->call('delete', 'Organisations/' . $id . '/Dates/' . $dId);
-	}
-
-
-	public function deleteOrganizationDate($id, $dId)
-	{
-		return $this->deleteOrganisationDate($id, $dId);
 	}
 
 
@@ -240,12 +174,6 @@ trait Organisations
 	}
 
 
-	public function updateOrganizationCustomField($id, array $data = [])
-	{
-		return $this->updateOrganisationCustomField($id, $data);
-	}
-
-
 	/**
 	 * Delete organisation custom field
 	 *
@@ -256,12 +184,6 @@ trait Organisations
 	public function deleteOrganisationCustomField($id, $cfId)
 	{
 		return $this->call('put', 'Organisations/' . $id . '/CustomFields/' . $cfId);
-	}
-
-
-	public function deleteOrganizationCustomField($id, $cfId)
-	{
-		return $this->deleteOrganisationCustomField($id, $cfId);
 	}
 
 
@@ -278,12 +200,6 @@ trait Organisations
 	}
 
 
-	public function addOrganizationTag($id, $tag)
-	{
-		return $this->addOrganisationTag($id, $tag);
-	}
-
-
 	/**
 	 * Delete organisation tag
 	 *
@@ -294,12 +210,6 @@ trait Organisations
 	public function deleteOrganisationTag($id, $tag)
 	{
 		return $this->call('delete', 'Organisations/' . $id . '/Tags/' . $tag);
-	}
-
-
-	public function deleteOrganizationTag($id, $tag)
-	{
-		return $this->deleteOrganisationTag($id, $tag);
 	}
 
 
@@ -315,12 +225,6 @@ trait Organisations
 	}
 
 
-	public function getOrganizationEvents($id)
-	{
-		return $this->getOrganisationEvents($id);
-	}
-
-
 	/**
 	 * Get Organisation Notes
 	 *
@@ -330,12 +234,6 @@ trait Organisations
 	public function getOrganisationNotes($id)
 	{
 		return $this->call('get', 'Organisations/' . $id . '/Notes');
-	}
-
-
-	public function getOrganizationNotes($id)
-	{
-		return $this->getOrganisationNotes($id);
 	}
 
 
@@ -351,12 +249,6 @@ trait Organisations
 	}
 
 
-	public function getOrganizationAttachments($id)
-	{
-		return $this->getOrganisationAttachments($id);
-	}
-
-
 	/**
 	 * Get Organisation Emails
 	 *
@@ -366,12 +258,6 @@ trait Organisations
 	public function getOrganisationEmails($id)
 	{
 		return $this->call('get', 'Organisations/' . $id . '/Emails');
-	}
-
-
-	public function getOrganizationEmails($id)
-	{
-		return $this->getOrganisationEmails($id);
 	}
 
 
@@ -387,12 +273,6 @@ trait Organisations
 	}
 
 
-	public function getOrganizationTasks($id)
-	{
-		return $this->getOrganisationTasks($id);
-	}
-
-
 	/**
 	 * Get Organisation Follow Status
 	 *
@@ -402,12 +282,6 @@ trait Organisations
 	public function isFollowOrganisation($id)
 	{
 		return $this->call('get', 'Organisations/' . $id . '/Follow');
-	}
-
-
-	public function isFollowOrganization($id)
-	{
-		return $this->isFollowOrganisation($id);
 	}
 
 
@@ -423,12 +297,6 @@ trait Organisations
 	}
 
 
-	public function followOrganization($id)
-	{
-		return $this->followOrganisation($id);
-	}
-
-
 	/**
 	 * Unfollow Organisation
 	 *
@@ -441,12 +309,6 @@ trait Organisations
 	}
 
 
-	public function unfollowOrganization($id)
-	{
-		return $this->unfollowOrganisation($id);
-	}
-
-
 	/**
 	 * Add activity to organisation
 	 *
@@ -456,12 +318,6 @@ trait Organisations
 	public function addOrganisationActivity($id)
 	{
 		return $this->call('delete', 'Organisations/' . $id . '/Follow');
-	}
-
-
-	public function addOrganizationActivity($id)
-	{
-		return $this->addOrganisationActivity($id);
 	}
 
 }
